@@ -1,0 +1,345 @@
+body { 
+    font-size: 1.05em;
+    line-height: 1.25em;
+    font-family: Helvetica Neue, Helvetica, Arial;
+    color: #555;
+
+}
+
+nav ul a:not(.active){
+
+    color: #4C9CF1;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 120%
+}
+
+nav ul a:hover:not(.active) {
+
+    color: white;
+    background:#4C9CF1;
+    text-decoration: none;
+
+}
+
+nav ul a.active {
+
+    color: white;
+    background:#4C9CF1;
+    text-decoration: none;
+    font-size:120%;
+    font-weight: bold;
+
+}
+nav ul a.active:hover {
+
+    color: white;
+    background:#4C9CF1;
+    text-decoration: none;
+
+}
+
+
+header {
+
+    background: #fff;
+    width: 100%;
+    height: 15vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 4px solid #4C9CF1;
+    z-index: 100;
+
+}
+
+#logo {
+    float: left;
+    height: 15vh;
+    display: block;
+    font-size:10vh;
+    text-decoration: none;
+    color:#4C9CF1;
+
+}
+#logo:hover:not(.active){
+    color: #4C9CF1;
+}
+#logo.active{
+    color: white;
+    background:#4C9CF1;
+    text-decoration: none;
+}
+#logo.active:hover{
+    color: white;
+}
+
+nav {
+    font-size:125%;
+    float: right;
+    padding: 6vh 2vw 0 2vw;  
+
+}
+#menu-icon{
+    display:none;
+}
+
+
+ul {
+
+    list-style: none;
+
+}
+
+li {
+
+    display: inline-block;
+    float: left;
+    padding: 10px
+
+}
+
+
+
+section {
+    margin: 0;
+    max-width: 100vw;
+    height:100vh;
+    padding-top:20vh;
+    padding-left:5vw;
+    padding-right:5vw;
+
+}
+
+
+
+#portfolio{
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    text-align: left;
+    padding-top:20vh;
+    color: #006400; 
+
+}
+#portfolio h1 h2{
+    font-size:120%;
+}
+
+
+ Style the Image Used to Trigger the Modal */
+#hobbies {
+    background-color: #f1f1f1;
+    font-family: Arial;
+    }
+
+#hobbies h2{
+ text-align: center;
+ margin-top:0;
+ color:black;
+ text-transform: uppercase;
+}
+/* Center website */
+#hobbies .main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+#hobbies .row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+#hobbies .row,
+#hobbies .row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+#hobbies .column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */
+#hobbies .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+#hobbies .content {
+    background-color: white;
+    padding: 10px;
+}
+*
+
+/* Container for skill bars */
+#skills{
+    background:#F5F5F5;
+
+}
+#skills h2{
+    text-align: center;
+    text-transform: uppercase;
+    color:black;
+    margin:0;
+}
+#skills p{
+    display:inline-block;
+    float:left;
+    width:10vw;
+    height:8vh;
+    font-size:150%;
+    padding:1vh;
+    margin:2vh;
+}
+
+#skills .container {
+    display:inline-block;
+    float:right;
+    padding:1vh 1vw 1vh 1vw;
+    margin:2vh;
+    width: 70vw; /* Full width */
+    height:8vh;
+    background-color: #ddd; /* Grey background */
+}
+
+.sk {
+    text-align: right;
+    font-size:120%; /* Right-align text */
+    padding-right: 5vw; /* Add some right padding */
+    line-height: 6vh; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+#skills .python {width: 30%; background-color: #2196F3;}
+#skills .html {width: 28%; background-color: #4CAF50;} /* Green */
+#skills .css {width: 28%; background-color: #8A2BE2;} /* Blue */
+#skills .js {width: 15%; background-color: #f44336;} /* Red */
+#skills .c {width: 40%; background-color: #D2691E;}
+#skills .cg {width: 20%; background-color: #808080;} /* Dark Grey */
+
+
+#contact{
+    height:100vh;
+    padding:15vh;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1000px) {
+#about{
+    min-height:120vh;
+}
+#hobbies{
+    min-height: 240vh;
+}
+   #hobbies .column {
+        width: 50%;
+    }
+    #skills p{
+margin:auto;
+font-size:120%;
+width:100%;
+text-align: center;
+height:5vh;
+}
+
+#skills .container {
+    height:8vh;
+    margin:auto;
+    width:100%;
+}
+ 
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+
+
+
+/*MEDIA QUERY*/
+@media screen and (max-width:700px) {
+header{
+    position:fixed;
+}
+#logo{
+    margin-top:5vh;
+    height:8vh;
+    width:20vh;
+    font-size:200%;
+}
+#hobbies{
+    min-height:400vh;
+}
+#about{
+    min-height:200vh;
+}
+    nav ul, nav:active ul { 
+
+        display: none;
+        position: fixed;
+        padding: 20px;
+        background: #FFFFFF;
+        border: 5px solid #4C9CF1;
+        right: 20px;
+        top: 60px;
+        width: 50%;
+        border-radius: 4px 0 4px 4px;
+
+    }
+
+    nav li {
+
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+        margin: 0;
+
+    }
+
+    nav:hover ul {
+
+        display: block;
+
+    }
+    nav {
+
+    float: right;
+    padding: 5vh 2vw 0 2vw;  
+}
+  #menu-icon{
+        display:inline-block;
+        font-size:150%;
+
+
+    }
+
+     #hobbies .column {
+        width: 100%;
+    }
+
+
+#skills p{
+margin:auto;
+font-size:150%;
+width:100%;
+text-align: center;
+height:5vh;
+}
+
+#skills .container {
+    height:5vh;
+    margin:auto;
+    background-color: #ddd; /* Grey background */
+}
+
+.sk {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 20px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+}
