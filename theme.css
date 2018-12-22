@@ -54,16 +54,16 @@ display: block;
 
 }
 #home h2{
-	font-family:Impact, Charcoal, sans-serif; 
+	font-family:Arial, Helvetica, sans-serif; 
 	font-size: 40px;
 }
 #home ul{
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 30px;
 	color: #8B4513;
 }
 #home h3{
-	font-family:Impact, Charcoal, sans-serif; 
+	font-family:Arial, Helvetica, sans-serif;
 	font-size: 30px;
 }
 #about{
@@ -133,12 +133,12 @@ display: block;
 	font-size:18px;
 	margin:0;
 	padding:2px 0 0 10px;
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	}
 .progress p{
 	float:right;
 	font-size:18px;
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	margin:0;
 	padding-right:10px;
 
