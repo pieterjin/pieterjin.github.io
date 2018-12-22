@@ -255,5 +255,11 @@ section {padding-top:20%;}
 .progresstitle{font-size:15px;}
 .progress p{font-size:15px;}
 #contact h2{font-size:30px;}
+.text input{
+	width:100%;
+}
+.message input{
+	width:100%;
+}
 
 }
