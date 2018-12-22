@@ -175,7 +175,7 @@ display: block;
 
 @media only screen and (max-width: 800px){
 	/*for tablets */
-section {padding-top:12%;}
+section {padding-top:20%;}
  .btn{font-size:20px;}
  #home{display:block;
  	text-align: center;}
@@ -187,6 +187,9 @@ section {padding-top:12%;}
  #home h2{font-size: 25px;}
  #home ul{font-size: 22px;}
  #home h3{font-size: 22px;}
+ #about {display:block;}
+ .column1{width:100%;}
+ .column2{width:100%;}
  #about h2{font-size:22px;}
 .column1 ul{font-size: 20px;}
 #about img{
@@ -214,7 +217,7 @@ section {padding-top:12%;}
 
 @media only screen and (max-width: 600px){
 	/*for mobile*/
-section {padding-top:12%;}
+section {padding-top:20%;}
  .btn{font-size:18px;}
  #home{display:block;
  	text-align: center;}
@@ -226,6 +229,10 @@ section {padding-top:12%;}
  #home h2{font-size: 25px;}
  #home ul{font-size: 20px;}
  #home h3{font-size: 20px;}
+ #about {display:block;}
+ .column1{width:100%;}
+ .column2{width:100%;}
+
  #about h2{font-size:20px;}
 .column1 ul{font-size: 18px;}
 #about img{
@@ -238,7 +245,7 @@ section {padding-top:12%;}
 .progress{
 	border-radius: 13px;
 	height:24px;
-	width:400px;
+	width:350px;
 	margin:5px;
 }
 .progressbar{
