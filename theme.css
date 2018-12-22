@@ -175,7 +175,7 @@ display: block;
 
 @media only screen and (max-width: 800px){
 	/*for tablets */
-section {padding-top:20%;}
+section {padding-top:12%;}
  .btn{font-size:20px;}
  #home{display:block;
  	text-align: center;}
@@ -217,7 +217,7 @@ section {padding-top:20%;}
 
 @media only screen and (max-width: 600px){
 	/*for mobile*/
-section {padding-top:20%;}
+section {padding-top:12%;}
  .btn{font-size:18px;}
  #home{display:block;
  	text-align: center;}
@@ -236,25 +236,25 @@ section {padding-top:20%;}
  #about h2{font-size:20px;}
 .column1 ul{font-size: 18px;}
 #about img{
-	width:150px;
-	height:113px;
-	margin:0 20px;
+	width:100px;
+	height:50px;
+	margin:0 5px;
 }
-#about p{font-size:15px;}
+#about p{font-size:12px;}
 .hide{display:none;}
 .skill h2{font-size: 20px;}
 .progress{
-	border-radius: 13px;
-	height:24px;
-	width:350px;
+	border-radius: 10px;
+	height:18px;
+	width:320px;
 	margin:5px;
 }
 .progressbar{
-	height:24px;
-	border-radius: 13px;
+	height:18px;
+	border-radius: 10px;
 }
-.progresstitle{font-size:15px;}
-.progress p{font-size:15px;}
+.progresstitle{font-size:10px;}
+.progress p{font-size:10px;}
 #contact h2{font-size:30px;}
 .text input{
 	width:100%;
